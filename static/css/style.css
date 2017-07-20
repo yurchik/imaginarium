@@ -1,0 +1,87 @@
+@import "reset.css";
+
+@font-face {
+    font-family: RThin;
+    src: url('../fonts/costume/ttf/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: RLight;
+    src: url('../fonts/costume/ttf/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: RRegular;
+    src: url('../fonts/costume/ttf/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: RMedium;
+    src: url('../fonts/costume/ttf/Roboto-Medium.ttf');
+}
+
+body {
+    background-color: #d8dad9;
+    color: #333530;
+    font-family: RLight;
+}
+
+body p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 0;
+}
+
+strong {
+    font-family: RMedium;
+}
+
+.marg {
+    margin-top: 15%;
+}
+
+.pictureBlock {
+    float: left;
+    margin-right: -15px;
+}
+
+.navbar-brand {
+    padding: 11px 10px 0 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+}
+
+.picturePopular {
+    height: 170px;
+    text-align: center;
+}
+
+.linkPopular {
+    padding-bottom: 10px;
+}
+
+.views_count {
+    font-size: 12px;
+}
+
+.views_count>span, .views_count>a>span {
+    padding-right: 5px;
+    margin-left: 5px;
+}
+
+.form-control, .btn {
+    border-radius: 0;
+}
+
+.center {
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.detaile-like>span {
+    padding: 0 5px;
+}
+
+.navbar {
+    border-radius: 0;
+}
